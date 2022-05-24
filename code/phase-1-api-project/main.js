@@ -1,12 +1,13 @@
+document.addEventListener( 'DomContentLoaded',() =>{
+    console.log(document.querySelector(div))
+})
+console.log(document.querySelector('div'))
+
 const apiData =() => {
     return fetch('//www.boredapi.com/api/activity')
     
 
-    headers: {
-        Accept:"application/json"
-    }
-}
-    then (response =>response.json())
+   .then (response =>response.json())
     .then (json => {
 
         renderApiData(json)
@@ -14,6 +15,7 @@ const apiData =() => {
         console.log(error)
     
     })
+}
 apiData()
 
 
@@ -25,6 +27,16 @@ const renderApiData =(json => {
         
     })
     
+})
+
+
+const form = document.getElementById("select-activities")
+console.log(form) 
+form.addEventListener ("submit",(e) => {
+    e.preventDefault()
+    console.log(e.target)
+
+
 })
 
 
