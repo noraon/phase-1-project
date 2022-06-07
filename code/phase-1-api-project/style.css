@@ -1,25 +1,56 @@
-hero header {
-text-align:center;
-margin-top : 100px;
-font-size: 800;
-font-family: 'Times New Roman', Times, serif;
 
+
+    html {
+        height: 100%;
+        width: 100%;
+        font-family: "Titillium Web", sans-serif;
+      }
+
+
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background:lightslategrey
+  }
+  
+  button {
+    font-size: 7px;
+  }
+
+   #main-content
+    {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+
+
+
+  #list {
+    margin: 10px;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+
+.about us {
+    position:sticky;
+    height: 20px;;
+    width:2px;
+    font: 12.5px;
 }
 
-dark.hero-header{
-    color:blueviolet
-
-
-}
 
 
 
 
-background-image
-
-color:: base
-margin:
-padding:
-background-color:
-background-color:
-text-align
